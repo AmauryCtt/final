@@ -102,8 +102,8 @@ body {
     max-width: 900px;
 }
 
-.about-button {
-    background-color: rgb(193, 176, 134) ;
+.about-home {
+    background-color: rgb(193, 176, 134);
     color: white;
     border: 3px solid white; 
     padding: 10px 20px;
@@ -114,11 +114,5 @@ body {
     margin-top: 35px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
     transition: all 0.3s ease-in-out;
-}
-
-.about-button:hover {
-    background-color: rgb(193, 176, 134) ;
-    transform: translateY(-3px); 
-    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.4); 
 }
 
