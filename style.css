@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap'); 
+
+#amenities {
+    font-family: 'Roboto Slab', serif; 
+    position: relative;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    overflow: hidden; 
+}
+
+.amenities-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    object-fit: cover; 
+}
+
+.amenities-container {
+    background:rgb(63, 156, 193); 
+    padding: 30px;
+    border-radius: 15px;
+    width: 50%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 1; /* Place le texte au-dessus de l’image */
+}
+
+.amenities-content h2 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.amenities-content p {
+    color: #fff;
+    font-size: 16px;
+}
+
+.amenities-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.amenity {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.amenity span {
+    margin-right: 10px;
+}
+
+.about-boutton {
+    display: inline-block;
+    background-color: rgb(193, 176, 134);
+    color: white;
+        
+    border: 3px solid white;
+    padding: 10px 20px;
+    font-size: 12px;
+    margin-left: 65px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 35px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+.about-boutton:hover {
+    background-color: rgb(193, 176, 134);
+    transform: translateY(-3px);
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.4);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
