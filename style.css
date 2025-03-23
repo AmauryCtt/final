@@ -47,11 +47,11 @@ body {
 }
 
 .image-secondaire {
-    width: 220px;
+    width: 230px;
     border-radius: 15px;
     position: absolute;
-    bottom: 20px;
-    right: -80px;
+    bottom: -20px;
+    right: -120px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     border: 3px solid rgb(193, 176, 134);
 }
@@ -93,25 +93,27 @@ body {
     font-weight: normal;
 }
 
+
 .about-text p {
     margin-top: 25px;
     font-size: 13px;
-    line-height: 1.6;
+    line-height: 1.8;
     color: #555;
     margin-left: 65px; 
     max-width: 900px;
+    margin-bottom: 60px;
 }
 
 .about-home {
     background-color: rgb(193, 176, 134);
     color: white;
     border: 3px solid white; 
+    text-decoration: none;
     padding: 10px 20px;
     font-size: 12px;
     margin-left: 65px;
     border-radius: 20px;
     cursor: pointer;
-    margin-top: 35px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
     transition: all 0.3s ease-in-out;
 }
