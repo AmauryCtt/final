@@ -3,23 +3,43 @@
 
 #rooms {
     text-align: left;
-    padding: 50px 10%;
+    padding: 50px 10% 50px;
     font-family: 'Roboto Slab', serif;
 }
 
 #rooms h3 {
     color: gray;
-    font-size: 14px;
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-weight: 500;
+    position: relative;
+    padding-top: 20px;
+    display: inline-block; 
+    max-width: fit-content;
+    width: auto; 
+    white-space: nowrap; 
 }
 
+
+#rooms h3::before {
+    content: "";
+    position: absolute;
+    top: -15px; 
+    left: 0;
+    width: 100px; 
+    height: 4px; 
+    background-color: rgba(193, 176, 134, 0.7);
+    display: block;
+}
+
+
 #rooms h2 {
-    font-size: 28px;
+    font-size: 26px;
     margin-bottom: 30px;
     font-weight: 500;
+    margin-top: 10px;
 }
 
 .rooms-container {
@@ -37,7 +57,6 @@
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     border: 2px solid rgba(193, 176, 134, 0.7);
 }
-
 
 .room-card img {
     width: 100%;
@@ -79,6 +98,6 @@
     cursor: pointer;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     position: absolute;
-    bottom: 450px;
+    bottom: 440px;
     right: 140px;
 }
