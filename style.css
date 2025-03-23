@@ -22,7 +22,7 @@
 }
 
 .amenities-container {
-    background:rgb(63, 156, 193); 
+    background:rgba(63, 156, 193, 0.4); 
     padding: 30px;
     border-radius: 15px;
     width: 50%;
@@ -32,6 +32,10 @@
     border: 3px solid rgb(193, 176, 134); 
     margin-top: 110px; 
     margin-left: 350px;
+}
+
+.amenities-container:hover {
+    background: rgb(63, 156, 193); 
 }
 
 .amenities-content h2 {
