@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap'); 
+
+#Restaurant {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 45px;
+    text-align: left;
+    padding: 50px;
+    font-family: 'Roboto Slab', serif;
+    gap: 30px;
+}
+
+#Restaurant h5 {
+    font-size: 25px; 
+    font-weight: 450;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+#Restaurant p {
+    font-size: 13px;
+    font-weight: 300px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    max-width: 400px;
+    margin-left: 40px;
+}
+
+
+.Restaurant-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 13px;
+}
+
+.Restaurant-imagegd {
+    width: 350px;
+    height: 505px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border: 3px solid rgb(193, 176, 134);
+    object-fit: cover;
+    align-self: center;
+}
+
+.Restaurant-image {
+    width: 330px;
+    height: 180px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border: 3px solid rgb(193, 176, 134);
+}
+
+.about-boutton {
+    display: inline-block;
+    background-color: rgb(193, 176, 134);
+    color: white;
+    text-decoration: none; 
+    border: 3px solid white;
+    padding: 10px 20px;
+    font-size: 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    bottom: 460px;
+    right: 100px;
+}
