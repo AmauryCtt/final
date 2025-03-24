@@ -15,7 +15,19 @@
     font-size: 25px; 
     font-weight: 450;
     margin-bottom: 10px;
-    margin-top: 0px;
+    margin-top: 15px;
+    position: relative;
+}
+
+#Restaurant h5::before {
+    content: "";
+    position: absolute;
+    top: -15px; 
+    left: 0;
+    width: 80px;
+    height: 4px; 
+    background-color: rgba(193, 176, 134, 0.7); 
+    display: block;
 }
 
 #Restaurant p {
@@ -29,6 +41,12 @@
 }
 
 
+.Restaurant-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: -15px;
+}
+
 .Restaurant-images {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -37,12 +55,12 @@
 
 .Restaurant-imagegd {
     width: 350px;
-    height: 505px;
+    height: 515px;
     border-radius: 15px;
+    margin-top: 0px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     border: 3px solid rgb(193, 176, 134);
     object-fit: cover;
-    align-self: center;
 }
 
 .Restaurant-image {
@@ -66,6 +84,6 @@
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease-in-out;
     position: absolute;
-    bottom: 460px;
-    right: 100px;
+    bottom: 440px;
+    right: 110px;
 }
