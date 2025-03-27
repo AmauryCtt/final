@@ -302,3 +302,165 @@ body {
     transition: all 0.3s ease-in-out;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap'); 
+
+#Restaurant {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 45px;
+    text-align: left;
+    padding: 50px;
+    font-family: 'Roboto Slab', serif;
+    gap: 30px;
+}
+
+#Restaurant h5 {
+    font-size: 25px; 
+    font-weight: 450;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    position: relative;
+}
+
+#Restaurant h5::before {
+    content: "";
+    position: absolute;
+    top: -15px; 
+    left: 0;
+    width: 80px;
+    height: 4px; 
+    background-color: rgba(193, 176, 134, 0.7); 
+    display: block;
+}
+
+#Restaurant p {
+    font-size: 13px;
+    font-weight: 300px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    max-width: 400px;
+    margin-left: 40px;
+}
+
+
+.Restaurant-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: -15px;
+}
+
+.Restaurant-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 13px;
+}
+
+.Restaurant-imagegd {
+    width: 350px;
+    height: 515px;
+    border-radius: 15px;
+    margin-top: 0px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border: 3px solid rgb(193, 176, 134);
+    object-fit: cover;
+}
+
+.Restaurant-image {
+    width: 320px;
+    height: 160px;
+    border-radius: 15px;
+    border: 3px solid rgb(193, 176, 134);
+    transition: transform 0.3s;
+    object-fit: cover;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin: 10px;
+    height: 165px;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.4s;
+    border-radius: 15px;
+    flex-direction: column;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.title-box {
+    background-color: rgba(193, 176, 134, 0.6); 
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    width: 100%;
+    transform: translateY(100%);
+    transition: transform 0.5s;
+}
+
+.text-box {
+    background-color: rgba(193, 176, 134, 0.6); 
+    padding: 1px 1px;
+    width: 85%;
+    border-radius: 8px;
+    transform: translateY(-100%);
+    transition: transform 0.5s;
+}
+
+.overlay:hover .title-box {
+    transform: translateY(0);
+}
+
+.overlay:hover .text-box {
+    transform: translateY(0);
+}
+
+.title-box h6 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+}
+
+.text-box p {
+    margin: 0;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 1.4;
+    text-align: center; 
+}
+
+.about-boutton {
+    display: inline-block;
+    background-color: rgb(193, 176, 134);
+    color: white;
+    text-decoration: none; 
+    border: 3px solid white;
+    padding: 10px 20px;
+    font-size: 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    bottom: 430px;
+    right: 110px;
+}
