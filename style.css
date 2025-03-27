@@ -463,4 +463,95 @@ body {
     position: absolute;
     bottom: 430px;
     right: 110px;
+}@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap');
+
+#Gallery {
+    padding: 50px 10%;
+    font-family: 'Roboto Slab', serif;
+    margin-top: -40px;
+}
+
+#Gallery h3 {
+    color: gray;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+#Gallery h3::before {
+    content: "";
+    position: left;
+    left: 0;
+    width: 80px;
+    height: 4px; 
+    background-color: rgba(193, 176, 134, 0.7); 
+    display: block;
+    margin-bottom: 25px;
+}
+
+#Gallery h2 {
+    font-size: 23px;
+    margin-bottom: 50px;
+    font-weight: 450;
+}
+
+.gallery-container {
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    overflow: visible; 
+    padding: 20px; 
+    height: auto; 
+}
+
+.radio-btn {
+    display: none; 
+}
+
+.gallery-label {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.gallery-img {
+    height: 400px;
+    width: 60px;
+    border-radius: 20px;
+    object-fit: cover;
+    border: 2px solid rgba(193, 176, 134, 0.7);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.radio-btn:first-of-type:checked + .gallery-label .gallery-img {
+    height: 400px;
+    width: 500px;
+    transform: scale(1.05);
+}
+
+.radio-btn:checked + .gallery-label .gallery-img {
+    height: 400px;
+    width: 500px;
+    transform: scale(1.05);
+}
+
+
+.about-boutton {
+    display: inline-block;
+    background-color: rgb(193, 176, 134);
+    color: white;
+    text-decoration: none; 
+    border: 3px solid white;
+    padding: 10px 20px;
+    font-size: 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 460px;
+    right: 100px;
 }
