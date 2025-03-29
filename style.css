@@ -86,7 +86,7 @@
     font-weight: 500;
 }
 
-.about-boutton {
+.room-boutton {
     display: inline-block;
     background-color: rgb(193, 176, 134);
     color: white;
@@ -98,9 +98,9 @@
     cursor: pointer;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     position: absolute;
-    bottom: 440px;
+    bottom: -700px;
     right: 140px;
-}@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap');
+}
 
 body {
     margin: 0;
@@ -180,9 +180,6 @@ html {
 }
 
 
-
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap');
 
 
 body {
@@ -302,9 +299,8 @@ body {
     transition: all 0.3s ease-in-out;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap'); 
 
-#Restaurant {
+#restaurant {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -315,7 +311,7 @@ body {
     gap: 30px;
 }
 
-#Restaurant h5 {
+#restaurant h5 {
     font-size: 25px; 
     font-weight: 450;
     margin-bottom: 10px;
@@ -323,7 +319,7 @@ body {
     position: relative;
 }
 
-#Restaurant h5::before {
+#restaurant h5::before {
     content: "";
     position: absolute;
     top: -15px; 
@@ -334,7 +330,7 @@ body {
     display: block;
 }
 
-#Restaurant p {
+#restaurant p {
     font-size: 13px;
     font-weight: 300px;
     line-height: 1.5;
@@ -345,19 +341,19 @@ body {
 }
 
 
-.Restaurant-wrapper {
+.restaurant-wrapper {
     display: flex;
     flex-direction: column;
     margin-left: -15px;
 }
 
-.Restaurant-images {
+.restaurant-images {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 13px;
 }
 
-.Restaurant-imagegd {
+.restaurant-imagegd {
     width: 350px;
     height: 515px;
     border-radius: 15px;
@@ -367,7 +363,7 @@ body {
     object-fit: cover;
 }
 
-.Restaurant-image {
+.restaurant-image {
     width: 320px;
     height: 160px;
     border-radius: 15px;
@@ -448,7 +444,7 @@ body {
     text-align: center; 
 }
 
-.about-boutton {
+.restaurant-boutton {
     display: inline-block;
     background-color: rgb(193, 176, 134);
     color: white;
@@ -461,17 +457,17 @@ body {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease-in-out;
     position: absolute;
-    bottom: 430px;
+    bottom: -1270px;
     right: 110px;
-}@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap');
+}
 
-#Gallery {
+#gallery {
     padding: 50px 10%;
     font-family: 'Roboto Slab', serif;
     margin-top: -40px;
 }
 
-#Gallery h3 {
+#gallery h3 {
     color: gray;
     font-size: 10px;
     text-transform: uppercase;
@@ -481,7 +477,7 @@ body {
     font-weight: 400;
 }
 
-#Gallery h3::before {
+#gallery h3::before {
     content: "";
     position: left;
     left: 0;
@@ -492,7 +488,7 @@ body {
     margin-bottom: 25px;
 }
 
-#Gallery h2 {
+#gallery h2 {
     font-size: 23px;
     margin-bottom: 50px;
     font-weight: 450;
@@ -540,7 +536,7 @@ body {
 }
 
 
-.about-boutton {
+.gallery-boutton {
     display: inline-block;
     background-color: rgb(193, 176, 134);
     color: white;
@@ -552,6 +548,6 @@ body {
     cursor: pointer;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     position: absolute;
-    bottom: 460px;
+    bottom: -1870px;
     right: 100px;
 }
